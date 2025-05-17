@@ -20,7 +20,7 @@ const Home = () => {
 
           <div className="icons">
             <a
-              href="https://github.com/rajkumar764"
+              href="https://github.com/Rajgupta764?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
