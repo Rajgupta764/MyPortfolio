@@ -1,0 +1,82 @@
+.skills-section {
+  background: #111;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background: linear-gradient(90deg, #e52d27, #f9a825, #ffeb3b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.skill {
+  margin-bottom: 30px;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.skill-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+
+.skill h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.percentage {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f9a825;
+}
+
+.progress-bar {
+  background: #333;
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress {
+  background: linear-gradient(90deg, #e52d27, #f9a825);
+  height: 100%;
+  width: 0;
+  border-radius: 6px;
+  transition: width 2s ease-in-out;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .skill h3 {
+    font-size: 1rem;
+  }
+
+  .percentage {
+    font-size: 0.9rem;
+  }
+}

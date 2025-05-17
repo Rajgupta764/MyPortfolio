@@ -1,0 +1,136 @@
+.about-section {
+  background-color:#111;
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.spacer {
+  height: 4rem; /* Blank space at the top */
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.about-image img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px; /* Use 50% for circular */
+  border: 3px solid #fff;
+}
+
+/* Content */
+.about-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Highlights */
+.about-highlights {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  //flex-wrap: wrap;
+  margin-top: 2rem;
+  
+}
+
+.about-highlights div {
+  background-color: #111;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  min-width: 150px;
+  font-size: 1rem;
+}
+
+.about-highlights span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffcc;
+}
+
+/* Responsive Tweaks */
+@media (min-width: 768px) {
+  .about-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-content h2 {
+    font-size: 2.5rem;
+  }
+
+  .about-content p {
+    font-size: 1.2rem;
+  }
+
+  .about-highlights div {
+    font-size: 1.1rem;
+  }
+}
+.about-subsection {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.about-subsection h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #00ffcc;
+}
+
+.about-subsection ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.about-subsection li {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.about-subsection strong {
+  color: #fff;
+}
+
+/* Responsive text alignment */
+@media (max-width: 768px) {
+  .about-subsection {
+    text-align: center;
+  }
+}
+.about-image img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px solid #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.05); /* Slight zoom */
+  box-shadow: 0 8px 16px rgba(0, 255, 204, 0.5); /* Soft glow */
+}
+h2{
+  font-weight: 600;
+}
+
